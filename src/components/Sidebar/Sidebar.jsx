@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import {
   FaLinkedinIn,
   FaGithubAlt,
@@ -11,6 +12,12 @@ import { BsFillLaptopFill, BsWhatsapp } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
+  const [isCollapsed, setIsCollapsed] = useState(false);
+
+  const handleLinkClick = () => {
+    setIsCollapsed(true);
+  };
+
   return (
     <div className="row m-0">
       <header className="header text-center col-lg-3">
@@ -27,14 +34,17 @@ const Sidebar = () => {
               data-bs-toggle="collapse"
               data-bs-target="#navigation"
               aria-controls="navigation"
-              aria-expanded="true"
+              aria-expanded={!isCollapsed}
               aria-label="Toggle navigation"
+              onClick={() => setIsCollapsed(!isCollapsed)}
             >
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
               id="navigation"
-              className="navbar-collapse flex-column collapse show"
+              className={`navbar-collapse flex-column collapse ${
+                isCollapsed ? "" : "show"
+              }`}
             >
               <div className="profile-section pt-3 pt-lg-0">
                 <img
@@ -54,6 +64,7 @@ const Sidebar = () => {
                       href="https://www.facebook.com/p/Er-Shaikh-100014528709145/"
                       className="text-orange"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <FaFacebook />
                     </a>
@@ -63,6 +74,7 @@ const Sidebar = () => {
                       href="https://www.linkedin.com/in/irfanshks97/"
                       className="text-orange"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <FaLinkedinIn />
                     </a>
@@ -72,6 +84,7 @@ const Sidebar = () => {
                       href="https://github.com/irfanshks97/"
                       className="text-orange"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <FaGithubAlt />
                     </a>
@@ -81,6 +94,7 @@ const Sidebar = () => {
                       href="https://www.instagram.com/er.shaikh67"
                       className="text-orange"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <FaInstagram />
                     </a>
@@ -90,6 +104,7 @@ const Sidebar = () => {
                       href="https://wa.me/9860338964"
                       className="text-orange"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <BsWhatsapp />
                     </a>
@@ -103,6 +118,7 @@ const Sidebar = () => {
                       activeClassName="active"
                       exact
                       to="/"
+                      onClick={handleLinkClick}
                     >
                       <FiUser className="me-2" /> About Me
                     </NavLink>
@@ -112,6 +128,7 @@ const Sidebar = () => {
                       className="nav-link"
                       activeClassName="active"
                       to="/portfolio"
+                      onClick={handleLinkClick}
                     >
                       <BsFillLaptopFill className="me-2" /> Portfolio
                     </NavLink>
@@ -121,6 +138,7 @@ const Sidebar = () => {
                       className="nav-link"
                       activeClassName="active"
                       to="/experience"
+                      onClick={handleLinkClick}
                     >
                       <FiBriefcase className="me-2" /> Experience
                     </NavLink>
@@ -130,6 +148,7 @@ const Sidebar = () => {
                       className="nav-link"
                       activeClassName="active"
                       to="/education"
+                      onClick={handleLinkClick}
                     >
                       <FiBriefcase className="me-2" /> Education
                     </NavLink>
@@ -139,6 +158,7 @@ const Sidebar = () => {
                       className="nav-link"
                       activeClassName="active"
                       to="/resume"
+                      onClick={handleLinkClick}
                     >
                       <FiFileText className="me-2" /> Resume
                     </NavLink>
@@ -148,6 +168,7 @@ const Sidebar = () => {
                       className="nav-link"
                       activeClassName="active"
                       to="/blog"
+                      onClick={handleLinkClick}
                     >
                       <FiRss className="me-2" /> Blog
                     </NavLink>
@@ -157,6 +178,7 @@ const Sidebar = () => {
                       className="nav-link"
                       activeClassName="active"
                       to="/contact"
+                      onClick={handleLinkClick}
                     >
                       <FiMail className="me-2" /> Contact
                     </NavLink>

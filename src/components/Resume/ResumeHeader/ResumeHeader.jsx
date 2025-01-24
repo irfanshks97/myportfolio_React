@@ -28,7 +28,7 @@ export const ResumeHeader = () => {
         </button>
       </div>
       <div
-        className={`container mx-auto p-lg-5 p-md-4 p-2 m-5 shadow rounded ${
+        className={`container mx-auto p-lg-5 p-md-4 p-3 m-5 shadow rounded ${
           darkTheme ? "bg-dark text-light" : "bg-light text-dark"
         }`}
       >

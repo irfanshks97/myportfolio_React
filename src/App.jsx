@@ -1,14 +1,13 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Sidebar from "./components/Sidebar/Sidebar";
 import "./App.css";
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Education from "./Pages/Education";
 import AboutMe from "./Pages/AboutMe";
 import Portfolio from "./Pages/Portfolio";
-import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
 import Experience from "./Pages/Experience";
+import Contact from "./Pages/Contact";
+import Resume from "./Pages/Resume";
 const App = () => {
   return (
     <BrowserRouter>

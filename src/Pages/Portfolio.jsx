@@ -34,7 +34,10 @@ function Portfolio() {
                   <div className="col-12 col-lg-7">
                     <div className="card-body">
                       <h5 className="card-title">
-                        <a href="project.html" className="theme-link">
+                        <a
+                          href="https://iconicshop-zeta.vercel.app/"
+                          className="theme-link"
+                        >
                           Iconic Shop
                         </a>
                       </h5>
@@ -50,6 +53,50 @@ function Portfolio() {
                 </div>
                 <div className="link-mask">
                   <a className="link-mask-link" href="project.html"></a>
+                  <div className="link-mask-text">
+                    <a
+                      className="btn btn-secondary"
+                      href="https://iconicshop-zeta.vercel.app/"
+                      target="_blank"
+                    >
+                      <FaEye className="me-2" />
+                      Click to visit
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="isotope-item col-md-6 mb-5 ">
+              <div className="card project-card">
+                <div className="row">
+                  <div className="col-12 col-xl-5 card-img-holder">
+                    <img src={image} className=" p-2 card-img" alt="image" />
+                  </div>
+                  <div className="col-12 col-lg-7">
+                    <div className="card-body">
+                      <h5 className="card-title">
+                        <a
+                          href="https://iconicshop-zeta.vercel.app/"
+                          className="theme-link"
+                        >
+                          Iconic Shop
+                        </a>
+                      </h5>
+                      <p className="card-text">
+                        Iconic Shop is an online shopping platform offering a
+                        wide range of trendy and high-quality products. From
+                        fashion and accessories to electronics and home goods.
+                        Iconic Shop delivers an exceptional shopping experience
+                        with stylish, affordable options for every need.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="link-mask">
+                  <a
+                    className="link-mask-link"
+                    href="https://iconicshop-zeta.vercel.app/"
+                  ></a>
                   <div className="link-mask-text">
                     <a
                       className="btn btn-secondary"
@@ -87,7 +134,10 @@ function Portfolio() {
                   </div>
                 </div>
                 <div className="link-mask">
-                  <a className="link-mask-link" href="project.html"></a>
+                  <a
+                    className="link-mask-link"
+                    href="https://iconicshop-zeta.vercel.app/"
+                  ></a>
                   <div className="link-mask-text">
                     <a
                       className="btn btn-secondary"
@@ -101,45 +151,7 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-            <div className="isotope-item col-md-6 mb-5 mobileapp frontend">
-              <div className="card project-card">
-                <div className="row">
-                  <div className="col-12 col-xl-5 card-img-holder">
-                    <img src={image} className=" p-2 card-img" alt="image" />
-                  </div>
-                  <div className="col-12 col-lg-7">
-                    <div className="card-body">
-                      <h5 className="card-title">
-                        <a href="project.html" className="theme-link">
-                          Iconic Shop
-                        </a>
-                      </h5>
-                      <p className="card-text">
-                        Iconic Shop is an online shopping platform offering a
-                        wide range of trendy and high-quality products. From
-                        fashion and accessories to electronics and home goods.
-                        Iconic Shop delivers an exceptional shopping experience
-                        with stylish, affordable options for every need.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="link-mask">
-                  <a className="link-mask-link" href="project.html"></a>
-                  <div className="link-mask-text">
-                    <a
-                      className="btn btn-secondary"
-                      href="https://iconicshop-zeta.vercel.app/"
-                      target="_blank"
-                    >
-                      <FaEye className="me-2" />
-                      Click to visit
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="isotope-item col-md-6 mb-5 mobileapp frontend">
+            <div className="isotope-item col-md-6 mb-5 ">
               <div className="card project-card">
                 <div className="row">
                   <div className="col-12 col-xl-5 card-img-holder">

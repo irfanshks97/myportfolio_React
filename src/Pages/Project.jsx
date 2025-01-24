@@ -33,8 +33,12 @@ export const Project = () => {
                 <div className="col-12 col-xl-7">
                   <div className="card-body">
                     <h5 className="card-title">
-                      <a href="project.html" className="theme-link">
-                        Project Heading
+                      <a
+                        href="https://iconicshop-zeta.vercel.app/"
+                        className="theme-link"
+                        target="_blank"
+                      >
+                        Iconic Shop
                       </a>
                     </h5>
                     <p className="card-text">
@@ -43,15 +47,23 @@ export const Project = () => {
                       dis parturient montes.
                     </p>
                     <p className="card-text">
-                      <small className="text-muted">Client: Google</small>
+                      <small className="text-muted">Client: None</small>
                     </p>
                   </div>
                 </div>
               </div>
               <div className="link-mask">
-                <a className="link-mask-link" href="project.html"></a>
+                <a
+                  className="link-mask-link"
+                  href="https://iconicshop-zeta.vercel.app/"
+                  target="_blank"
+                ></a>
                 <div className="link-mask-text">
-                  <a className="btn btn-secondary" href="project.html">
+                  <a
+                    className="btn btn-secondary"
+                    href="https://iconicshop-zeta.vercel.app/"
+                    target="_blank"
+                  >
                     <FaEye className="me-2" />
                     View Case Study
                   </a>
@@ -76,8 +88,12 @@ export const Project = () => {
                 <div className="col-12 col-xl-7">
                   <div className="card-body">
                     <h5 className="card-title">
-                      <a href="project.html" className="theme-link">
-                        Project Heading
+                      <a
+                        href="https://iconicshop-zeta.vercel.app/"
+                        className="theme-link"
+                        target="_blank"
+                      >
+                        Iconic Shop
                       </a>
                     </h5>
                     <p className="card-text">
@@ -86,15 +102,23 @@ export const Project = () => {
                       montes, nascetur ridiculus mus.
                     </p>
                     <p className="card-text">
-                      <small className="text-muted">Client: Dropbox</small>
+                      <small className="text-muted">Client: None</small>
                     </p>
                   </div>
                 </div>
               </div>
               <div className="link-mask">
-                <a className="link-mask-link" href="project.html"></a>
+                <a
+                  className="link-mask-link"
+                  href="https://iconicshop-zeta.vercel.app/"
+                  target="_blank"
+                ></a>
                 <div className="link-mask-text">
-                  <a className="btn btn-secondary" href="project.html">
+                  <a
+                    className="btn btn-secondary"
+                    href="https://iconicshop-zeta.vercel.app/"
+                    target="_blank"
+                  >
                     <FaEye className="me-2" />
                     View Case Study
                   </a>
@@ -119,8 +143,12 @@ export const Project = () => {
                 <div className="col-12 col-xl-7">
                   <div className="card-body">
                     <h5 className="card-title">
-                      <a href="project.html" className="theme-link">
-                        Project Heading
+                      <a
+                        href="https://iconicshop-zeta.vercel.app/"
+                        className="theme-link"
+                        target="_blank"
+                      >
+                        Iconic Shop
                       </a>
                     </h5>
                     <p className="card-text">
@@ -129,15 +157,23 @@ export const Project = () => {
                       montes, nascetur ridiculus mus.
                     </p>
                     <p className="card-text">
-                      <small className="text-muted">Client: Google</small>
+                      <small className="text-muted">Client: None</small>
                     </p>
                   </div>
                 </div>
               </div>
               <div className="link-mask">
-                <a className="link-mask-link" href="project.html"></a>
+                <a
+                  className="link-mask-link"
+                  href="https://iconicshop-zeta.vercel.app/"
+                  target="_blank"
+                ></a>
                 <div className="link-mask-text">
-                  <a className="btn btn-secondary" href="project.html">
+                  <a
+                    className="btn btn-secondary"
+                    href="https://iconicshop-zeta.vercel.app/"
+                    target="_blank"
+                  >
                     <FaEye className="me-2" />
                     View Case Study
                   </a>
@@ -162,8 +198,12 @@ export const Project = () => {
                 <div className="col-12 col-xl-7">
                   <div className="card-body">
                     <h5 className="card-title">
-                      <a href="project.html" className="theme-link">
-                        Project Heading
+                      <a
+                        href="https://iconicshop-zeta.vercel.app/"
+                        className="theme-link"
+                        target="_blank"
+                      >
+                        Iconic Shop
                       </a>
                     </h5>
                     <p className="card-text">
@@ -172,15 +212,23 @@ export const Project = () => {
                       montes, nascetur ridiculus mus.
                     </p>
                     <p className="card-text">
-                      <small className="text-muted">Client: Uber</small>
+                      <small className="text-muted">Client: None</small>
                     </p>
                   </div>
                 </div>
               </div>
               <div className="link-mask">
-                <a className="link-mask-link" href="project.html"></a>
+                <a
+                  className="link-mask-link"
+                  href="https://iconicshop-zeta.vercel.app/"
+                  target="_blank"
+                ></a>
                 <div className="link-mask-text">
-                  <a className="btn btn-secondary" href="project.html">
+                  <a
+                    className="btn btn-secondary"
+                    href="https://iconicshop-zeta.vercel.app/"
+                    target="_blank"
+                  >
                     <FaEye className="me-2" />
                     View Case Study
                   </a>

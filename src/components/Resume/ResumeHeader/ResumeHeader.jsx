@@ -3,7 +3,6 @@ import { LiaLinkedin } from "react-icons/lia";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaGlobe, FaEnvelope } from "react-icons/fa";
 import irfanImage from "../IrfanImage.png";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { ProfileSummary } from "../ProfileSummary/ProfileSummary";
 import { Workexperience } from "../WorkExperience.jsx/Workexperience";
 import TechnicalSkills from "../Skills/Skills";
@@ -21,7 +20,7 @@ export const ResumeHeader = () => {
   };
 
   return (
-    <div className="container-fluid ps-lg-3">
+    <div className="ps-lg-3">
       <div className="text-center p-5">
         {" "}
         <button className="btn btn-orange">
@@ -29,7 +28,7 @@ export const ResumeHeader = () => {
         </button>
       </div>
       <div
-        className={`container mx-auto p-5 m-5 shadow rounded ${
+        className={`container mx-auto p-lg-5 p-md-4 p-2 m-5 shadow rounded ${
           darkTheme ? "bg-dark text-light" : "bg-light text-dark"
         }`}
       >

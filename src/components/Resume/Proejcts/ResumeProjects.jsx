@@ -7,7 +7,7 @@ const projects = [
     duration: "Apr 2023 - Present",
     role: "React Developer",
     description:
-      "The Pharmacy Management System is a comprehensive solution tailored for medical distributors to efficiently manage and automate their business processes. This system integrates four key modules: purchase orders, drug sales, inventory management, and detailed report generation. By streamlining these operations, the system ensures real-time tracking, accurate stock maintenance, and seamless transaction management. With a focus on usability, the system offers an intuitive interface that simplifies navigation and enhances user productivity. Its robust design empowers distributors to minimize manual efforts, reduce errors, and make data-driven decisions for improved operational efficiency.",
+      "A Pharmacy CRM system is designed to streamline the purchase and sales processes of medications, improve inventory management, and enhance overall operational efficiency. This system allows pharmacies to manage drug purchases, track sales transactions, and generate detailed reports for better decision-making",
     environment: "React, JavaScript, Bootstrap, Redux, HTML5, CSS3, GIT",
     responsibilities: [
       "Attended daily stand-up scrum meetings to discuss progress and plans.",

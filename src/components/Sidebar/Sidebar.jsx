@@ -12,7 +12,7 @@ import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div className="row">
+    <div className="row m-0">
       <header className="header text-center col-lg-3">
         <div className="force-overflow">
           <h1 className="blog-name pt-lg-4 mb-0">

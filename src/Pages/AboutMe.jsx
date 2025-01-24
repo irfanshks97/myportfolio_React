@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 const AboutMe = () => {
   return (
     <>
-      <section className="about-me-section pt-4 p-lg-5 theme-bg-light">
-        <div className="container">
+      <section className="about-me-section pt-4 p-lg-5 theme-bg-light m-0">
+        <div className="container-fluid">
           <div className="profile-teaser row">
             <div className="col">
               <motion.h2

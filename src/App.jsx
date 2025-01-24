@@ -1,4 +1,3 @@
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Sidebar from "./components/Sidebar/Sidebar";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

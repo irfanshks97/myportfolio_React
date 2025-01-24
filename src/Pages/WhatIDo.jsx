@@ -14,8 +14,8 @@ import { motion } from "framer-motion"; // Import motion from framer-motion
 
 export const WhatIDo = () => {
   return (
-    <section className="overview-section p-3 p-lg-5">
-      <div className="container">
+    <section className="overview-section p-md-4 pt-4">
+      <div className="">
         <motion.h2
           className="section-title fw-bold mb-3"
           initial={{ opacity: 0 }}

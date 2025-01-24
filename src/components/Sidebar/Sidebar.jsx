@@ -8,16 +8,16 @@ import { FiUser, FiBriefcase, FiFileText, FiRss, FiMail } from "react-icons/fi";
 
 import Irfan_Image from "../../assets/images/Irfan_Image.jpg";
 import { BsFillLaptopFill, BsWhatsapp } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div className="">
-      <header className="header text-center">
+    <div className="row">
+      <header className="header text-center col-lg-3">
         <div className="force-overflow">
           <h1 className="blog-name pt-lg-4 mb-0">
             <a className="no-text-decoration" href="/">
-              Irfan shaikh
+              Irfan Shaikh
             </a>
           </h1>
           <nav className="navbar navbar-expand-lg navbar-dark">
@@ -88,44 +88,73 @@ const Sidebar = () => {
                   </li>
                 </ul>
                 <hr />
+                <ul className="navbar-nav flex-column text-start">
+                  <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
+                      activeClassName="active"
+                      exact
+                      to="/"
+                    >
+                      <FiUser className="me-2" /> About Me
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
+                      activeClassName="active"
+                      to="/portfolio"
+                    >
+                      <BsFillLaptopFill className="me-2" /> Portfolio
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
+                      activeClassName="active"
+                      to="/experience"
+                    >
+                      <FiBriefcase className="me-2" /> Experience
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
+                      activeClassName="active"
+                      to="/education"
+                    >
+                      <FiBriefcase className="me-2" /> Education
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
+                      activeClassName="active"
+                      to="/resume"
+                    >
+                      <FiFileText className="me-2" /> Resume
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
+                      activeClassName="active"
+                      to="/blog"
+                    >
+                      <FiRss className="me-2" /> Blog
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
+                      activeClassName="active"
+                      to="/contact"
+                    >
+                      <FiMail className="me-2" /> Contact
+                    </NavLink>
+                  </li>
+                </ul>
               </div>
-              <ul className="navbar-nav flex-column text-start">
-                <li className="nav-item">
-                  <Link className="nav-link active" to="/">
-                    <FiUser className="me-2" /> About Me
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/portfolio">
-                    <BsFillLaptopFill className="me-2" /> Portfolio
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/experience">
-                    <FiBriefcase className="me-2" /> Experience
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/education">
-                    <FiBriefcase className="me-2" /> Education
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/resume">
-                    <FiFileText className="me-2" /> Resume
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/blog">
-                    <FiRss className="me-2" /> Blog
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/contact">
-                    <FiMail className="me-2" /> Contact
-                  </Link>
-                </li>
-              </ul>
             </div>
           </nav>
         </div>

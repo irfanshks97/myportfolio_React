@@ -10,13 +10,14 @@ import Resume from "./Pages/Resume";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="container-fluid">
+      <div className="">
         <div className="row">
           {/* Sidebar */}
+
           <Sidebar />
 
           {/* Main Content */}
-          <main className="col-md-9 ms-sm-auto col-lg-10 px-4">
+          <main className="col-12 ms-sm-auto col-lg-9 px-5 px-lg-4">
             <Routes>
               <Route path="/" element={<AboutMe />} />
               <Route path="/resume" element={<Resume />} />

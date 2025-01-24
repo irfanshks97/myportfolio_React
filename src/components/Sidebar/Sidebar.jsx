@@ -53,6 +53,7 @@ const Sidebar = () => {
                     <a
                       href="https://www.facebook.com/p/Er-Shaikh-100014528709145/"
                       className="text-orange"
+                      target="_blank"
                     >
                       <FaFacebook />
                     </a>
@@ -61,6 +62,7 @@ const Sidebar = () => {
                     <a
                       href="https://www.linkedin.com/in/irfanshks97/"
                       className="text-orange"
+                      target="_blank"
                     >
                       <FaLinkedinIn />
                     </a>
@@ -69,6 +71,7 @@ const Sidebar = () => {
                     <a
                       href="https://github.com/irfanshks97/"
                       className="text-orange"
+                      target="_blank"
                     >
                       <FaGithubAlt />
                     </a>
@@ -77,12 +80,17 @@ const Sidebar = () => {
                     <a
                       href="https://www.instagram.com/er.shaikh67"
                       className="text-orange"
+                      target="_blank"
                     >
                       <FaInstagram />
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="https://wa.me/9860338964" className="text-orange">
+                    <a
+                      href="https://wa.me/9860338964"
+                      className="text-orange"
+                      target="_blank"
+                    >
                       <BsWhatsapp />
                     </a>
                   </li>

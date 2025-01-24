@@ -1,14 +1,7 @@
-import React, { useState } from "react";
 import { BiPhoneCall } from "react-icons/bi";
 import { LiaLinkedin } from "react-icons/lia";
 import { IoLocationSharp } from "react-icons/io5";
-import {
-  FaGlobe,
-  FaEnvelope,
-  FaFilePdf,
-  FaFileDownload,
-  FaFile,
-} from "react-icons/fa";
+import { FaGlobe, FaEnvelope } from "react-icons/fa";
 import irfanImage from "../IrfanImage.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ProfileSummary } from "../ProfileSummary/ProfileSummary";
@@ -19,6 +12,7 @@ import Footer from "../Footer/Footer";
 import Qualification from "../Qulifications/Qualifications";
 import PersonalDetails from "../PersonalDetails/PersonalDetails";
 import { FaFilePen } from "react-icons/fa6";
+import { useState } from "react";
 
 export const ResumeHeader = () => {
   const [darkTheme, setDarkTheme] = useState(false);

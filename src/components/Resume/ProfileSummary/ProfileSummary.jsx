@@ -3,7 +3,7 @@ import { BsCheck2Circle } from "react-icons/bs";
 
 export const ProfileSummary = () => {
   const data = [
-    "Having 2.2 years of professional experience in Front-end Development using React.js.",
+    "Having 2+ years of professional experience in Front-end Development using React.js.",
     "Experience in the development of Single Page Applications using React.js, JavaScript, HTML5, and CSS3.",
     "Understanding and well-versed in using JavaScript, including JavaScript features.",
     "Proficient in creating web applications using top-notch HTML5, CSS3, JavaScript, and Bootstrap.",

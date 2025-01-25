@@ -98,7 +98,7 @@ export const WhatIDo = () => {
           {skills.map((skill, index) => (
             <motion.div
               key={index}
-              className="col-12 col-md-6 col-lg-3 mb-4 d-flex"
+              className="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex"
               {...animationProps}
             >
               <div className="item-inner border rounded shadow p-3 text-center h-100">

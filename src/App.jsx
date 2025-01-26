@@ -17,7 +17,7 @@ const App = () => {
           <Sidebar />
 
           {/* Main Content */}
-          <main className="col-12 ms-sm-auto col-lg-9 px-3 px-lg-4 m-0">
+          <main className="col-12 ms-sm-auto col-lg-9 col-xl-10 px-3 px-lg-4 m-0">
             <Routes>
               <Route path="/" element={<AboutMe />} />
               <Route path="/resume" element={<Resume />} />

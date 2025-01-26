@@ -6,10 +6,9 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import { FiUser, FiBriefcase, FiFileText, FiRss, FiMail } from "react-icons/fi";
-
-import Irfan_Image from "../../assets/images/Irfan_Image.jpg";
 import { BsFillLaptopFill, BsWhatsapp } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
+import Irfan_Image from "../../assets/images/Irfan_Image.jpg";
 
 const Sidebar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -20,7 +19,7 @@ const Sidebar = () => {
 
   return (
     <div className="row m-0">
-      <header className="header text-center col-lg-3">
+      <header className="header text-center col-xl-2 col-lg-3">
         <div className="force-overflow">
           <h1 className="blog-name pt-lg-4 mb-0">
             <a className="no-text-decoration" href="/">
@@ -59,7 +58,7 @@ const Sidebar = () => {
                 </div>
 
                 <ul className="social-list list-inline py-2 mx-auto">
-                  <li className="list-inline-item">
+                  <li className="list-inline-item d-xl-none">
                     <a
                       href="https://www.facebook.com/p/Er-Shaikh-100014528709145/"
                       className="text-orange"
@@ -114,9 +113,9 @@ const Sidebar = () => {
                 <ul className="navbar-nav flex-column text-start">
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link"
-                      activeClassName="active"
-                      exact
+                      className={({ isActive }) =>
+                        `nav-link ${isActive ? "active" : ""}`
+                      }
                       to="/"
                       onClick={handleLinkClick}
                     >
@@ -125,8 +124,9 @@ const Sidebar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link"
-                      activeClassName="active"
+                      className={({ isActive }) =>
+                        `nav-link ${isActive ? "active" : ""}`
+                      }
                       to="/portfolio"
                       onClick={handleLinkClick}
                     >
@@ -135,8 +135,9 @@ const Sidebar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link"
-                      activeClassName="active"
+                      className={({ isActive }) =>
+                        `nav-link ${isActive ? "active" : ""}`
+                      }
                       to="/experience"
                       onClick={handleLinkClick}
                     >
@@ -145,8 +146,9 @@ const Sidebar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link"
-                      activeClassName="active"
+                      className={({ isActive }) =>
+                        `nav-link ${isActive ? "active" : ""}`
+                      }
                       to="/education"
                       onClick={handleLinkClick}
                     >
@@ -155,8 +157,9 @@ const Sidebar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link"
-                      activeClassName="active"
+                      className={({ isActive }) =>
+                        `nav-link ${isActive ? "active" : ""}`
+                      }
                       to="/resume"
                       onClick={handleLinkClick}
                     >
@@ -165,8 +168,9 @@ const Sidebar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link"
-                      activeClassName="active"
+                      className={({ isActive }) =>
+                        `nav-link ${isActive ? "active" : ""}`
+                      }
                       to="/blog"
                       onClick={handleLinkClick}
                     >
@@ -175,8 +179,9 @@ const Sidebar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link"
-                      activeClassName="active"
+                      className={({ isActive }) =>
+                        `nav-link ${isActive ? "active" : ""}`
+                      }
                       to="/contact"
                       onClick={handleLinkClick}
                     >

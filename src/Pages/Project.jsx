@@ -1,6 +1,6 @@
 import { FaEye } from "react-icons/fa";
 import image from "../assets/images/image.jpg";
-import { motion } from "framer-motion"; // Import motion from framer-motion
+import { motion } from "framer-motion";
 
 export const Project = () => {
   return (
@@ -27,10 +27,10 @@ export const Project = () => {
           >
             <div className="card project-card">
               <div className="row no-gutters">
-                <div className="col-12 col-xl-5 card-img-holder">
+                <div className="col-12 card-img-holder">
                   <img src={image} className="card-img" alt="image" />
                 </div>
-                <div className="col-12 col-xl-7">
+                <div className="col-12 col-xl-12">
                   <div className="card-body">
                     <h5 className="card-title">
                       <a
@@ -82,10 +82,10 @@ export const Project = () => {
           >
             <div className="card project-card">
               <div className="row no-gutters">
-                <div className="col-12 col-xl-5 card-img-holder">
+                <div className="col-12 card-img-holder">
                   <img src={image} className="card-img" alt="image" />
                 </div>
-                <div className="col-12 col-xl-7">
+                <div className="col-12">
                   <div className="card-body">
                     <h5 className="card-title">
                       <a
@@ -137,10 +137,10 @@ export const Project = () => {
           >
             <div className="card project-card">
               <div className="row no-gutters">
-                <div className="col-12 col-xl-5 card-img-holder">
+                <div className="col-12 card-img-holder">
                   <img src={image} className="card-img" alt="image" />
                 </div>
-                <div className="col-12 col-xl-7">
+                <div className="col-12 ">
                   <div className="card-body">
                     <h5 className="card-title">
                       <a
@@ -192,10 +192,10 @@ export const Project = () => {
           >
             <div className="card project-card">
               <div className="row no-gutters">
-                <div className="col-12 col-xl-5 card-img-holder">
+                <div className="col-12 card-img-holder">
                   <img src={image} className="card-img" alt="image" />
                 </div>
-                <div className="col-12 col-xl-7">
+                <div className="col-12">
                   <div className="card-body">
                     <h5 className="card-title">
                       <a

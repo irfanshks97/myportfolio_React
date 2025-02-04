@@ -5,7 +5,7 @@ import {
   FaGitAlt,
   FaHtml5,
   FaJs,
-  FaPhp,
+  FaNodeJs,
   FaReact,
 } from "react-icons/fa";
 import { SiMui } from "react-icons/si";
@@ -38,14 +38,19 @@ export const WhatIDo = () => {
         "Skilled in version control using Git. Experienced with branching, merging, and pull requests for collaborative development.",
     },
     {
-      title: "PHP",
-      icon: <FaPhp className="text-primary fs-1" />,
+      title: "Node.js",
+      icon: <FaNodeJs className="text-primary fs-1" />,
       description:
-        "Proficient in writing clean PHP code for dynamic server-side applications, creating RESTful APIs, and integrating with MySQL databases.",
+        "Proficient in writing clean Node.js code for dynamic server-side applications, creating RESTful APIs, and integrating with MySQL databases.",
     },
     {
       title: "HTML & CSS",
-      icon: <FaHtml5 className="text-warning fs-1" />,
+      icon: (
+        <div className="d-flex justify-content-center align-items-center">
+          <FaHtml5 className="me-2 text-primary" />
+          <FaCss3 className="text-warning" />
+        </div>
+      ),
       description:
         "Proficient in crafting responsive, accessible, and semantic websites. Skilled in CSS methodologies like Flexbox and Grid.",
     },

@@ -28,10 +28,10 @@ function Portfolio() {
             <div className="isotope-item col-md-6 mb-5 mobileapp frontend">
               <div className="card project-card">
                 <div className="row">
-                  <div className="col-12 col-xl-5 card-img-holder">
+                  <div className="col-12 card-img-holder">
                     <img src={image} className=" p-2 card-img" alt="image" />
                   </div>
-                  <div className="col-12 col-lg-7">
+                  <div className="col-12 ">
                     <div className="card-body">
                       <h5 className="card-title">
                         <a
@@ -69,10 +69,10 @@ function Portfolio() {
             <div className="isotope-item col-md-6 mb-5 ">
               <div className="card project-card">
                 <div className="row">
-                  <div className="col-12 col-xl-5 card-img-holder">
+                  <div className="col-12 card-img-holder">
                     <img src={image} className=" p-2 card-img" alt="image" />
                   </div>
-                  <div className="col-12 col-lg-7">
+                  <div className="col-12">
                     <div className="card-body">
                       <h5 className="card-title">
                         <a
@@ -113,10 +113,10 @@ function Portfolio() {
             <div className="isotope-item col-md-6 mb-5 mobileapp frontend">
               <div className="card project-card">
                 <div className="row">
-                  <div className="col-12 col-xl-5 card-img-holder">
+                  <div className="col-12 card-img-holder">
                     <img src={image} className=" p-2 card-img" alt="image" />
                   </div>
-                  <div className="col-12 col-lg-7">
+                  <div className="col-12">
                     <div className="card-body">
                       <h5 className="card-title">
                         <a href="project.html" className="theme-link">
@@ -154,10 +154,10 @@ function Portfolio() {
             <div className="isotope-item col-md-6 mb-5 ">
               <div className="card project-card">
                 <div className="row">
-                  <div className="col-12 col-xl-5 card-img-holder">
+                  <div className="col-12 card-img-holder">
                     <img src={image} className=" p-2 card-img" alt="image" />
                   </div>
-                  <div className="col-12 col-lg-7">
+                  <div className="col-12">
                     <div className="card-body">
                       <h5 className="card-title">
                         <a href="project.html" className="theme-link">

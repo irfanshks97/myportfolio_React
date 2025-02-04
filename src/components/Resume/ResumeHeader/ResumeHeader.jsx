@@ -6,7 +6,6 @@ import irfanImage from "../IrfanImage.png";
 import { ProfileSummary } from "../ProfileSummary/ProfileSummary";
 import { Workexperience } from "../WorkExperience.jsx/Workexperience";
 import TechnicalSkills from "../Skills/Skills";
-import ProjectSummary from "../Proejcts/ResumeProjects";
 import Footer from "../Footer/Footer";
 import Qualification from "../Qulifications/Qualifications";
 import PersonalDetails from "../PersonalDetails/PersonalDetails";
@@ -29,7 +28,7 @@ export const ResumeHeader = () => {
       </div>
       <div
         className={`container mx-auto p-lg-5 p-md-4 p-3 m-5 shadow rounded ${
-          darkTheme ? "bg-dark text-light" : "bg-light text-dark"
+          darkTheme ? "text-light bg-dark" : "bg-light text-dark"
         }`}
       >
         <div className="d-flex justify-content-end align-items-center mb-3 ">
@@ -123,8 +122,6 @@ export const ResumeHeader = () => {
         <Workexperience />
         <hr />
         <TechnicalSkills />
-        <hr />
-        <ProjectSummary />
         <hr />
         <Qualification />
         <hr />
